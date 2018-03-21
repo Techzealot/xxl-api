@@ -2,8 +2,8 @@ package com.xxl.api.admin.core.util;
 
 import com.xxl.api.admin.core.model.XxlApiDataType;
 import com.xxl.api.admin.core.model.XxlApiDataTypeField;
-import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.lang.time.FastDateFormat;
+import org.apache.commons.collections4.CollectionUtils;
+import org.apache.commons.lang3.time.FastDateFormat;
 
 import java.util.*;
 
@@ -58,7 +58,6 @@ public class ApiDataTypeToCode {
         StringBuffer sb = new StringBuffer();
 
         // package
-        //sb.append("package com.dianping.apihome.demo.response;\r\n");
         sb.append("\r\n");
 
         // import
@@ -85,7 +84,7 @@ public class ApiDataTypeToCode {
         sb.append("/**\r\n");
         sb.append("*\t" + apiDataTypeDTO.getAbout()+ "\r\n");
         sb.append("*\r\n");
-        sb.append("*\tCreated by ApiHome on "+ FastDateFormat.getInstance("yy/MM/dd").format(new Date()) +".\r\n");
+        sb.append("*\tCreated by XXL-API on "+ FastDateFormat.getInstance("yy/MM/dd").format(new Date()) +".\r\n");
         sb.append("*/ \r\n");
 
         // 实体部分

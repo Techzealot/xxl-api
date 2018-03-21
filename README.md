@@ -1,11 +1,36 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg" width="150">
+    <h3 align="center">XXL-API</h3>
+    <p align="center">
+        XXL-API, a api management platform.
+        <br>
+        <a href="http://www.xuxueli.com/xxl-api/"><strong>-- Home Page --</strong></a>
+        <br>
+        <br>
+         <a href="https://github.com/xuxueli/xxl-api/releases">
+             <img src="https://img.shields.io/github/release/xuxueli/xxl-api.svg" >
+         </a>
+         <a href="http://www.gnu.org/licenses/gpl-3.0.html">
+             <img src="https://img.shields.io/badge/license-GPLv3-blue.svg" >
+         </a>
+         <a href="http://www.xuxueli.com/page/donate.html">
+             <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg?style=flat-square" >
+          </a>
+    </p>    
+</p>
 
-![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg "在这里输入图片标题")
+
+## Introduction
+XXL-API is a simple and easy-to-use API management platform that provides "management", "documentation", "Mock", and "test" functions for the API. Open source code, out-of-the-box.
+
+XXL-API是一个简洁易用API管理平台，提供API的"管理"、"文档"、"Mock"和"测试"等功能。现已开放源代码，开箱即用。
 
 
-# 《API管理平台XXL-API》
->XXL-API是一个简洁易用API管理平台，提供API的"管理"、"文档"、"Mock"和"测试"等功能。现已开放源代码，开箱即用。
+## Documentation
+- [中文文档](http://www.xuxueli.com/xxl-api/)
 
-#### 2. 特性
+
+## Features
 - 1、极致简单：交互简洁，一分钟上手；
 - 2、项目隔离：API以项目为维度进行拆分隔离；
 - 3、分组管理：单个项目内的API支持自定义分组进行管理；
@@ -15,38 +40,32 @@
 - 7、markdown：支持为API添加markdown格式的备注信息；
 - 8、Mock：支持为API定义Mock数据并制定数据响应格式，从而快速提供Mock接口，加快开发进度；
 - 9、在线测试：支持在线对API进行测试并保存测试数据，提供接口测试效率；
-
-#### 3. 文档
-
-[XXL-API管理平台文档](https://github.com/xuxueli/xxl-api/blob/master/doc/XXL-API管理平台文档.md)
+- 10、权限控制：支持以业务线为维度进行用户权限控制，分配权限才允许操作业务线下项目接口和数据类型，否则仅允许查看；
 
 
-#### 3. 下载
-##### 源码地址 (将会在两个git仓库同步发布最新代码)
 
-- [github地址](https://github.com/xuxueli/xxl-api)
-- [git.osc地址](http://git.oschina.net/xuxueli0323/xxl-api)
+## Communication
 
-##### 博客地址 (将会在两个博客同步更新文档)
+- [社区交流](http://www.xuxueli.com/page/community.html)
 
-- [oschina地址](https://my.oschina.net/xuxueli/blog/873667)
-- [cnblogs地址](http://www.cnblogs.com/xuxueli/p/6671139.html)
+## Contributing
+Contributions are welcome! Open a pull request to fix a bug, or open an [Issue](https://github.com/xuxueli/xxl-api/issues/) to discuss a new feature or change.
 
-##### 技术交流群 (仅作技术交流)
+欢迎参与项目贡献！比如提交PR修复一个bug，或者新建 [Issue](https://github.com/xuxueli/xxl-api/issues/) 讨论新特性或者变更。
 
-- 群4：464762661    [![image](http://pub.idqqimg.com/wpa/images/group.png)](http://shang.qq.com/wpa/qunwpa?idkey=c1660fbf8f81934b6f9095f9212f413ed2b127e72223502bb3c65888a0236ad3 )
-- 群3：242151780    （群即将满，请加群4）
-- 群2：438249535    （群即将满，请加群4）
-- 群1：367260654    （群即将满，请加群4）
+## 接入登记
+更多接入的公司，欢迎在 [登记地址](https://github.com/xuxueli/xxl-api/issues/1 ) 登记，登记仅仅为了产品推广。
+
+## Copyright and License
+This product is open source and free, and will continue to provide free community technical support. Individual or enterprise users are free to access and use.
+
+- Licensed under the GNU General Public License (GPL) v3.
+- Copyright (c) 2015-present, xuxueli.
+
+产品开源免费，并且将持续提供免费的社区技术支持。个人或企业内部可自由的接入和使用。
 
 
-#### 4. 报告问题
-XXL-API托管在Github上，如有问题可在 [ISSUES](https://github.com/xuxueli/xxl-api/issues/) 上提问，也可以加入上文技术交流群；
+## Donate
+No matter how much the amount is enough to express your thought, thank you very much ：）     [To donate](http://www.xuxueli.com/page/donate.html )
 
-#### 5. 接入登记（登记仅为了推广，产品开源免费）
-更多接入公司，欢迎在github [登记](https://github.com/xuxueli/xxl-api/issues/1 )
-
----
-#### 6. 支持的话可以扫一扫，支持 [XXL系列](https://github.com/xuxueli) 的建设。
-
-![输入图片说明](http://images2015.cnblogs.com/blog/554415/201605/554415-20160513183306234-1939652116.png "在这里输入图片标题")
+无论金额多少都足够表达您这份心意，非常感谢 ：）      [前往捐赠](http://www.xuxueli.com/page/donate.html )
